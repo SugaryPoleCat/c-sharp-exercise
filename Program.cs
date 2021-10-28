@@ -22,7 +22,7 @@ namespace CSharp_Training
 
 
             // waits for iunput = pauses the console.
-            Console.WriteLine("\npress a key to continue to woring with strings\n");
+            Console.WriteLine("\npress enter key to continue to woring with strings\n");
             Console.ReadLine();
             #endregion
 
@@ -81,7 +81,7 @@ namespace CSharp_Training
 
             // constant values are not stored anywhere. So for example:
             // console.writeline(30);,  the 30 is a constant value. its just there.
-            Console.WriteLine("\npress a key to continue to woring with strings\n");
+            Console.WriteLine("\npress enter key to continue to woring with strings\n");
             Console.ReadLine();
             #endregion
 
@@ -106,12 +106,80 @@ namespace CSharp_Training
             // can also do: .Substring(8, 3) to tell the start and how many character to grab.
             Console.WriteLine("SUbstring grabs a part of the string and makes it into a new string: " + anotherPhrase.Substring(8, 3));
 
-            Console.WriteLine("\npress a key to continue to woring with numbers\n");
+            Console.WriteLine("\npress enter key to continue to woring with numbers\n");
             Console.ReadLine();
             #endregion
 
             #region working wih numbers
-            Console.WriteLine("\npress a key to continue to woring with strings\n");
+            // you can totally like in JS perform math executions in console.
+            int numberA = 10;
+            int numberB = 5;
+            int numberC = 8;
+            double numberD = 6.3;
+            double numberE = 5.7;
+            Console.WriteLine(numberA + " * " + numberB + ": " + (numberA * numberB));
+            Console.WriteLine(numberA + " / " + numberB + ": " + (numberA / numberB));
+            Console.WriteLine(numberA + " + " + numberB + ": " + (numberA + numberB));
+            Console.WriteLine(numberA + " - " + numberB + ": " + (numberA - numberB));
+            // returns a remainder;
+            Console.WriteLine(numberA + " mod " + numberB + ": " + (numberA % numberB));
+            // follows the normal operation: does * and / first, then + and -, but can by bypassed with () like in normal math.
+            Console.WriteLine(numberA + " + " + numberB + " * " + numberC + ": " + (numberA + numberB * numberC));
+            Console.WriteLine("(" + numberA + " + " + numberB + ") * " + numberC + ": " + ((numberA + numberB) * numberC));
+            // opertaions using floating points.
+            Console.WriteLine(numberA + " + " + numberD + ": " + (numberA + numberD));
+            Console.WriteLine(numberD + " + " + numberE + ": " + (numberD + numberE));
+            // if you unclude a floating number, the c# will convert output to floating point.
+            Console.WriteLine(numberA + " / " + numberD + ": " + (numberA / numberD));
+            // if you DONT however, the output will be whole number.
+            Console.WriteLine(numberA + " / " + numberC + ": " + (numberA / numberC));
+            Console.WriteLine("\nNumber A now: " + numberA);
+            // ++ means + 1;
+            numberA++;
+            Console.WriteLine("++: "+ numberA);
+            numberA = 10;
+            numberA--;
+            Console.WriteLine("--: " + numberA);
+            numberA = 10;
+            // += is basically: numberA = numberA + numberB;
+            Console.WriteLine("+= " + numberB + ": " + (numberA += numberB));
+            Console.WriteLine("-= " + numberB + ": " + (numberA -= numberB));
+            Console.WriteLine("*= " + numberB + ": " + (numberA *= numberB));
+            Console.WriteLine("/= " + numberB + ": " + (numberA /= numberB));
+
+            // math things.
+            // JUST LIKE JS
+            // absolute
+            Console.WriteLine("Absolute of " + numberA + ": " + Math.Abs(numberA));
+            // power
+            Console.WriteLine("Power of " + numberA + " and " + numberB + ": " + Math.Pow(numberA, numberB));
+            // power with decimals
+            Console.WriteLine("Power of " + numberD + " and " + numberB + ": " + Math.Pow(numberD, numberB));
+            // root
+            Console.WriteLine("Square root of " + numberA + ": " + Math.Sqrt(numberA));
+            // max - which number is bigger
+            Console.WriteLine("Max of " + numberA + " and " + numberB + ": " + Math.Max(numberA, numberB));
+            // min - which number is smaller
+            Console.WriteLine("Min of " + numberA + " and " + numberB + ": " + Math.Min(numberA, numberB));
+            // round
+            Console.WriteLine("Round of " + numberD + ": " + Math.Round(numberD));
+            // round
+            Console.WriteLine("Round of " + numberE + ": " + Math.Round(numberE));
+
+            Console.WriteLine("\npress enter key to continue to woring with strings\n");
+            Console.ReadLine();
+            #endregion
+
+            #region working with user input
+            // console.write doesnt print new line
+
+            Console.Write("Enter your name: ");
+            string userName = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            string userAge = Console.ReadLine();
+            Console.WriteLine("Hello " + userName + " you are " + userAge);
+
+            Console.WriteLine("\npress enter key to continue to woring with strings\n");
             Console.ReadLine();
             #endregion
         }
