@@ -76,8 +76,8 @@ namespace CSBasics
             Console.WriteLine("Double: " + gpa + " | Float: " + myPoint + " | Decimal" + someStuff);
 
             // true/false
-            bool isMale = false;
-            Console.WriteLine("Bool: " + isMale);
+            bool thisIsStupid = false;
+            Console.WriteLine("Bool: " + thisIsStupid);
 
             // constant values are not stored anywhere. So for example:
             // console.writeline(30);,  the 30 is a constant value. its just there.
@@ -204,6 +204,64 @@ namespace CSBasics
             friends[4] = "jorge";
             friends[5] = "aAsd";
 
+            Console.WriteLine("\npress enter key to continue to wroking with if statements\n");
+            Console.ReadLine();
+            #endregion
+
+            #region if statements
+            bool isMale = true;
+            bool isTall = false;
+
+            if (isMale)
+            {
+                Console.WriteLine("You are Male");
+            }
+            else
+            {
+                Console.WriteLine("You are female");
+            }
+
+            // and
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a tall Male");
+            }
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are a short Male");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are not a male, but you are tall");
+            }
+            else
+            {
+                Console.WriteLine("You are not male and not tall");
+            }
+
+            // or
+            if (isMale || isTall)
+            {
+                Console.WriteLine("You are either a tall male, tall, or male.");
+            }
+            else
+            {
+                Console.WriteLine("You are either not tall, not male or both.");
+            }
+
+            int num1 = 10;
+            int num2 = 20;
+            int num3 = 10;
+            string str1 = "baby";
+            string str2 = "girl";
+            string str3 = "baby";
+
+            if (num1 != num2)
+            {
+                Console.WriteLine("true");
+            }
+
+            Console.WriteLine("\npress enter key to continue to wroking with arrays\n");
             Console.ReadLine();
             #endregion
         }
