@@ -6,6 +6,7 @@ namespace CSharp_Training
     {
         static void Main(string[] args)
         {
+            #region basics
             // Variables.
             string characterName = "";
             int characterAge;
@@ -23,7 +24,9 @@ namespace CSharp_Training
 
             // waits for iunput = pauses the console.
             Console.ReadLine();
+            #endregion
 
+            #region dataTypes
             //Data types
             // String has "" while char has '' and ONLY handles 1 character.;
             string phrase = "Boku no goku";
@@ -70,6 +73,26 @@ namespace CSharp_Training
 
             // constant values are not stored anywhere. So for example:
             // console.writeline(30);,  the 30 is a constant value. its just there.
+            #endregion
+
+            #region workingWithString
+            string anotherPhrase = "This is fantastic";
+            Console.WriteLine(anotherPhrase);
+            anotherPhrase = "This is a\nNew Line\n";
+            Console.WriteLine(anotherPhrase);
+            anotherPhrase += "\nAnd this is concacted line\n";
+            Console.WriteLine(anotherPhrase);
+            anotherPhrase = "This is fantastic";
+            Console.WriteLine("String length: " + anotherPhrase.Length);
+            Console.WriteLine("String uppercase: " + anotherPhrase.ToUpper());
+            Console.WriteLine("String lowercase: " + anotherPhrase.ToLower());
+            Console.WriteLine("Phrase contains: " + anotherPhrase.Contains("This"));
+            Console.WriteLine("Get a char from string: " + anotherPhrase[2]);
+            Console.WriteLine("Get the index value of the item you look for: " + anotherPhrase.IndexOf("fantastic"));
+
+            Console.ReadLine();
+            #endregion
+
         }
     }
 }
