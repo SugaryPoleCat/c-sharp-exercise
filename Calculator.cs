@@ -10,12 +10,14 @@ namespace CSharp_Training
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter number A: ");
-            int numberA = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter number B: ");
-            int numberB = Convert.ToInt32(Console.ReadLine());
-
             // doesnt work with decimals becasue we convert to INT.
+            // so now i converted it to double
+            // now we can work with decimals
+            Console.Write("Enter number A: ");
+            double numberA = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter number B: ");
+            double numberB = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine(numberA + numberB);
             Console.ReadLine();
         }
