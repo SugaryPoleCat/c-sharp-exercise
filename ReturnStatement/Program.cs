@@ -11,6 +11,7 @@ namespace ReturnStatement
         /// <returns></returns>
         static int cube(int num)
         {
+            // if your METHOD is returning soehting, it canb not be VOID.
             int result = num * num * num;
             return result;
         }

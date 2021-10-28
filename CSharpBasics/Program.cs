@@ -251,14 +251,24 @@ namespace CSBasics
 
             int num1 = 10;
             int num2 = 20;
-            int num3 = 10;
             string str1 = "baby";
             string str2 = "girl";
-            string str3 = "baby";
 
             if (num1 != num2)
             {
                 Console.WriteLine("true");
+            }
+            else
+            {
+                Console.WriteLine("false");
+            }
+            if (str1 == str2)
+            {
+                Console.WriteLine("true");
+            }
+            else
+            {
+                Console.WriteLine("false");
             }
 
             Console.WriteLine("\npress enter key to continue to wroking with arrays\n");
