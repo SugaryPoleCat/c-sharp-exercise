@@ -20,9 +20,9 @@ namespace CSharp_Training
             Console.WriteLine("He really liked the name " + characterName);
             Console.WriteLine("But didn't like being " + characterAge);
 
-            Console.WriteLine("press a key to continue to data types");
 
             // waits for iunput = pauses the console.
+            Console.WriteLine("\npress a key to continue to woring with strings\n");
             Console.ReadLine();
             #endregion
 
@@ -31,6 +31,7 @@ namespace CSharp_Training
             // String has "" while char has '' and ONLY handles 1 character.;
             string phrase = "Boku no goku";
             char poopster = 'P';
+            Console.WriteLine("String: " + phrase + " | Char: " + poopster);
             // unsigned ints are ALWAYS positive.
             // just saying int, you ake it possile to be + or -
             // Ints are always 32 bit. Unsigned: 0 - 4294967295
@@ -39,24 +40,29 @@ namespace CSharp_Training
             // you get teh max for unsigned.
             int degrees = -30;
             uint age = 20;
+            Console.WriteLine("Int: " + degrees + " | Uint: " + age);
             // Long are 64 bits. They work the same like int
             // you can define these using etiher int64 or long.
             // signed: -9223372036854775808 - 9223372036854775807
             // unsigned: 0 - 18446744073709551615
             long bigNegNumber = -989;
             ulong bigPosNumber = 989;
+            Console.WriteLine("Long: " + bigNegNumber + " | Ulong: " + bigPosNumber);
             // short = int16
             // signed: -32768 - 32767 | unsigned: 0-65535
             short length = -23;
             ushort width = 23;
+            Console.WriteLine("Short: " + length + " | Ushort: " + width);
             // byte = int8
             // signed: -128 - 127 | unsigned: 0 - 255
             // almost never used in sbyte.
             byte idNumber = 230;
             sbyte negId = -100;
+            Console.WriteLine("Byte: " + idNumber + " | Sbyte: " + negId);
 
             // this is a hex;
             int hexLiteral = 0x2A;
+            Console.WriteLine("Hex: " + hexLiteral);
 
             // floating point numeric types. Are retarded. No im joking!
             // theyre fine, but the problem with them is that they are NOT accurate 100%.
@@ -67,17 +73,23 @@ namespace CSharp_Training
             double gpa = 3.3;
             float myPoint = 3.2f;
             decimal someStuff = 9.9m;
+            Console.WriteLine("Double: " + gpa + " | Float: " + myPoint + " | Decimal" + someStuff);
 
             // true/false
             bool isMale = false;
+            Console.WriteLine("Bool: " + isMale);
 
             // constant values are not stored anywhere. So for example:
             // console.writeline(30);,  the 30 is a constant value. its just there.
+            Console.WriteLine("\npress a key to continue to woring with strings\n");
+            Console.ReadLine();
             #endregion
 
-            #region workingWithString
+            #region working With String
             string anotherPhrase = "This is fantastic";
             Console.WriteLine(anotherPhrase);
+            // prints an empty line
+            Console.WriteLine();
             anotherPhrase = "This is a\nNew Line\n";
             Console.WriteLine(anotherPhrase);
             anotherPhrase += "\nAnd this is concacted line\n";
@@ -88,11 +100,20 @@ namespace CSharp_Training
             Console.WriteLine("String lowercase: " + anotherPhrase.ToLower());
             Console.WriteLine("Phrase contains: " + anotherPhrase.Contains("This"));
             Console.WriteLine("Get a char from string: " + anotherPhrase[2]);
+            // if this returns -1, the character is not found
             Console.WriteLine("Get the index value of the item you look for: " + anotherPhrase.IndexOf("fantastic"));
+            // grabs the characters from the INDEX NUMBER.
+            // can also do: .Substring(8, 3) to tell the start and how many character to grab.
+            Console.WriteLine("SUbstring grabs a part of the string and makes it into a new string: " + anotherPhrase.Substring(8, 3));
 
+            Console.WriteLine("\npress a key to continue to woring with numbers\n");
             Console.ReadLine();
             #endregion
 
+            #region working wih numbers
+            Console.WriteLine("\npress a key to continue to woring with strings\n");
+            Console.ReadLine();
+            #endregion
         }
     }
 }
