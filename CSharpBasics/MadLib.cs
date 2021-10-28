@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharp_Training
+namespace CSBasics
 {
     class MadLib
     {

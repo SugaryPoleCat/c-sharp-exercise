@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace CSharp_Training
+namespace CSBasics
 {
     class Arrays
     {
-        static void Arr(string[] args)
+        static void Main(string[] args)
         {
             int[] luckyNumbers = { 1, 2, 3, 5, 8, 13, 27 };
 

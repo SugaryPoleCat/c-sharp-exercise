@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSharp_Training
+namespace CSBasics
 {
-    class Basics
+    class Program
     {
         static void Main(string[] args)
         {
