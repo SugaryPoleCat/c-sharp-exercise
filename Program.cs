@@ -136,7 +136,7 @@ namespace CSharp_Training
             Console.WriteLine("\nNumber A now: " + numberA);
             // ++ means + 1;
             numberA++;
-            Console.WriteLine("++: "+ numberA);
+            Console.WriteLine("++: " + numberA);
             numberA = 10;
             numberA--;
             Console.WriteLine("--: " + numberA);
@@ -178,12 +178,6 @@ namespace CSharp_Training
             Console.Write("Enter your age: ");
             string userAge = Console.ReadLine();
             Console.WriteLine("Hello " + userName + " you are " + userAge);
-
-            Console.WriteLine("\npress enter key to continue to building a calculator\n");
-            Console.ReadLine();
-            #endregion
-
-            #region building a calculator
 
             Console.WriteLine("\npress enter key to continue to building a calculator\n");
             Console.ReadLine();
