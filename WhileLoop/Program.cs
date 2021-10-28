@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace WhileLoop
 {
@@ -11,12 +12,14 @@ namespace WhileLoop
             {
                 Console.WriteLine(index);
                 index++;
+                Thread.Sleep(1000);
             }
             int index2 = 1;
             do
             {
                 Console.WriteLine(index2);
                 index2++;
+                Thread.Sleep(1000);
             } while (index2 <= 5);
 
             Console.ReadLine();
