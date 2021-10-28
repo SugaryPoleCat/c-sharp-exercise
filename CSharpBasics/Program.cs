@@ -179,7 +179,31 @@ namespace CSBasics
             string userAge = Console.ReadLine();
             Console.WriteLine("Hello " + userName + " you are " + userAge);
 
-            Console.WriteLine("\npress enter key to continue to building a calculator\n");
+            Console.WriteLine("\npress enter key to continue to wroking with arrays\n");
+            Console.ReadLine();
+            #endregion
+
+            #region working with arrays
+            int[] luckyNumbers = { 1, 2, 3, 5, 8, 13, 27 };
+
+            // prints the number at index [];
+            Console.WriteLine(luckyNumbers[1]);
+
+            luckyNumbers[1] = 666;
+
+            Console.WriteLine(luckyNumbers[1]);
+
+            // sometimes you dont know the names/numbers.
+            // the problem is you need to tell the array how big its gonna be.
+            string[] friends = new string[5];
+
+            friends[0] = "Frank";
+            friends[1] = "Kate";
+            friends[2] = "Pooper";
+            friends[3] = "Peter";
+            friends[4] = "jorge";
+            friends[5] = "aAsd";
+
             Console.ReadLine();
             #endregion
         }

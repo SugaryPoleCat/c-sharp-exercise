@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace CSBasics
+namespace MadLib
 {
-    class MadLib
+    class Program
     {
-        static void Mad(string[] args)
+        static void Main(string[] args)
         {
             // we let user pick to change RED, BLUE and YOU.
             // neeed to store 3 variables;

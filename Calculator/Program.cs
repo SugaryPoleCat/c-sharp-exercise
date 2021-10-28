@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace CSBasics
+namespace Calculator
 {
-    class Calculator
+    class Program
     {
-        static void Calc(string[] args)
+        static void Main(string[] args)
         {
             // doesnt work with decimals becasue we convert to INT.
             // so now i converted it to double
