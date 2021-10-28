@@ -271,6 +271,29 @@ namespace CSBasics
                 Console.WriteLine("false");
             }
 
+            Console.WriteLine("\npress enter key to continue to wroking swtich statements\n");
+            Console.ReadLine();
+            #endregion
+
+            #region switch statement
+            // faster than If/else, if the if/else is a huge block of code.
+            // otherwise the speedness is unnoticeable.
+
+            int swtichChoice = 1;
+
+            switch (swtichChoice)
+            {
+                case 0:
+                    Console.WriteLine("This is gay");
+                    break;
+                case 1:
+                    Console.WriteLine("this is not so gay");
+                    break;
+                default:
+                    Console.WriteLine("no input in swtichchoice");
+                    break;
+            }
+
             Console.WriteLine("\npress enter key to continue to wroking with arrays\n");
             Console.ReadLine();
             #endregion

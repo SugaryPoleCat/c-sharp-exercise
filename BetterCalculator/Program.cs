@@ -33,10 +33,10 @@ namespace BetterCalculator
             // get all information from the user;
             Console.Write("Enter numberA: ");
             numberA = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter numberB: ");
-            numberB = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter operator: ");
             string op = Console.ReadLine();
+            Console.Write("Enter numberB: ");
+            numberB = Convert.ToDouble(Console.ReadLine());
 
             calculate(numberA, numberB, op);
             // exercise:
