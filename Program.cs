@@ -166,7 +166,7 @@ namespace CSharp_Training
             // round
             Console.WriteLine("Round of " + numberE + ": " + Math.Round(numberE));
 
-            Console.WriteLine("\npress enter key to continue to woring with strings\n");
+            Console.WriteLine("\npress enter key to continue to woring with user input\n");
             Console.ReadLine();
             #endregion
 
@@ -179,7 +179,13 @@ namespace CSharp_Training
             string userAge = Console.ReadLine();
             Console.WriteLine("Hello " + userName + " you are " + userAge);
 
-            Console.WriteLine("\npress enter key to continue to woring with strings\n");
+            Console.WriteLine("\npress enter key to continue to building a calculator\n");
+            Console.ReadLine();
+            #endregion
+
+            #region building a calculator
+
+            Console.WriteLine("\npress enter key to continue to building a calculator\n");
             Console.ReadLine();
             #endregion
         }
