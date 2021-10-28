@@ -2,7 +2,7 @@
 
 namespace CSharp_Training
 {
-    class Program
+    class Basics
     {
         static void Main(string[] args)
         {
