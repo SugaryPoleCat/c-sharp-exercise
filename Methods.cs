@@ -9,7 +9,7 @@ namespace CSharp_Training
     class Methods
     {
         // this is amethod btw.
-        static void Main(string[] args)
+        static void Meth(string[] args)
         {
 
 

@@ -4,7 +4,7 @@ namespace CSharp_Training
 {
     class MadLib
     {
-        static void Main(string[] args)
+        static void Mad(string[] args)
         {
             // we let user pick to change RED, BLUE and YOU.
             // neeed to store 3 variables;

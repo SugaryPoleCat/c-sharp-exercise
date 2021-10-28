@@ -4,7 +4,7 @@ namespace CSharp_Training
 {
     class Arrays
     {
-        static void Main(string[] args)
+        static void Arr(string[] args)
         {
             int[] luckyNumbers = { 1, 2, 3, 5, 8, 13, 27 };
 

@@ -4,7 +4,7 @@ namespace CSharp_Training
 {
     class Calculator
     {
-        static void Main(string[] args)
+        static void Calc(string[] args)
         {
             // doesnt work with decimals becasue we convert to INT.
             // so now i converted it to double
