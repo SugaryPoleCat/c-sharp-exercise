@@ -7,6 +7,7 @@ namespace ObjectsClasses
         static void Main(string[] args)
         {
             // how to call the Boook class and use it.
+            // this is what we call, an object.
             Book book1 = new Book();
 
             book1.title = "Poop";

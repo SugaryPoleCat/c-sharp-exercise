@@ -395,7 +395,7 @@ namespace CSBasics
             // YOU CAN specify multiple catches tho.
             // IF you use Exception, its a super type, means it catches ALL the errors. 
             // So if you are using multiple catches, put Exception at the BOTTOM of the catch chain.
-            catch(DivideByZeroException e)
+            catch (DivideByZeroException e)
             {
                 Console.WriteLine(e);
             }
@@ -409,7 +409,8 @@ namespace CSBasics
             }
             // gets executed wether something got caught or not.
             // IS not always neeeded.....
-            finally{
+            finally
+            {
                 Console.WriteLine("This was mny trycatch");
             }
 
