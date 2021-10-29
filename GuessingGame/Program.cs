@@ -6,7 +6,12 @@ namespace GuessingGame
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string word = "bajs";
+            string guess = "";
+            do
+            {
+
+            }
         }
     }
 }
