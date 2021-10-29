@@ -294,6 +294,125 @@ namespace CSBasics
                     break;
             }
 
+            Console.WriteLine("\npress enter key to continue to wroking with while looops\n");
+            Console.ReadLine();
+            #endregion
+
+            #region while loop
+            int whileLoopTries = 0;
+            int whileLoopLimit = 10;
+            bool whileLoopBool = false;
+
+            // dfo this while conditions match.
+            while (whileLoopTries <= whileLoopLimit && !whileLoopBool)
+            {
+                Console.WriteLine(whileLoopTries);
+                whileLoopTries++;
+                if (whileLoopTries <= whileLoopLimit)
+                {
+                    whileLoopBool = true;
+                }
+            }
+            if (whileLoopBool)
+            {
+                Console.WriteLine("you win!");
+            }
+
+            // Perform first THEN perform check
+            do
+            {
+                Console.WriteLine(whileLoopTries);
+                whileLoopTries++;
+                if (whileLoopTries <= whileLoopLimit)
+                {
+                    whileLoopBool = true;
+                }
+            } while (whileLoopTries <= whileLoopLimit && !whileLoopBool);
+
+            if (whileLoopBool)
+            {
+                Console.WriteLine("you win!");
+            }
+            whileLoopTries = 0;
+            whileLoopLimit = 10;
+            whileLoopBool = false;
+            Console.WriteLine("\npress enter key to continue to wroking with for loops\n");
+            Console.ReadLine();
+            #endregion
+
+            #region for loop
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            int[] trash = { 50, 20, 30, 40, 60, 80 };
+            // the THING in ARRAY, has to match what the array IS.
+            // so you cant have foreach(string shit in trash);
+            foreach (int t in trash)
+            {
+                Console.WriteLine(t);
+            }
+            Console.WriteLine("\npress enter key to continue to wroking with 2d arrays\n");
+            Console.ReadLine();
+            #endregion
+
+            #region 2darray
+            // they all have to be arrays
+            int[,] numberGrid =
+            {
+                { 8,4},
+                {3,5 },
+                {1,6 }
+            };
+
+            // [WHICH array, WHICH item in array]
+            Console.WriteLine(numberGrid[0, 1]);
+
+            // just like in arays, you can do this:
+            int[,] unkownGrid = new int[2, 3];
+            // of course C# needs the amount of arrays and items in each array
+            // beforehand, to make this.
+            Console.WriteLine("\npress enter key to continue to wroking with exception hanlding\n");
+            Console.ReadLine();
+            #endregion
+
+            #region exception hanlding
+            // when program breaks, its an exception
+            try
+            {
+                Console.WriteLine("enter a number: ");
+                int exceptionNum1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("enter another number: ");
+                int exceptionNum2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(exceptionNum1 / exceptionNum2);
+            }
+            // you can specify in catch, what types of Exception you want.
+            // for example: Exception, DivideByZeroException, etc.
+            // specify CORRECT exceptuion, otherwise it wont be CAUGHT.
+            // so if you specify, DivideByZero and then in your input, ype a letter, that wont be caught.
+            // YOU CAN specify multiple catches tho.
+            // IF you use Exception, its a super type, means it catches ALL the errors. 
+            // So if you are using multiple catches, put Exception at the BOTTOM of the catch chain.
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine(e);
+            }
+            catch (FormatException err)
+            {
+                Console.WriteLine(err);
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine("Error message: " + err);
+            }
+            // gets executed wether something got caught or not.
+            // IS not always neeeded.....
+            finally{
+                Console.WriteLine("This was mny trycatch");
+            }
+
             Console.WriteLine("\npress enter key to continue to wroking with arrays\n");
             Console.ReadLine();
             #endregion

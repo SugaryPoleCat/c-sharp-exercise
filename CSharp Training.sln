@@ -11,17 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MadLib", "MadLib\MadLib.csproj", "{B34B11C6-64F9-44AC-B1A9-8DAB25B24151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnStatement", "ReturnStatement\ReturnStatement.csproj", "{D712CF40-163A-44BA-9348-E4FED2A9A152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReturnStatement", "ReturnStatement\ReturnStatement.csproj", "{D712CF40-163A-44BA-9348-E4FED2A9A152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatements", "IfStatements\IfStatements.csproj", "{C916950A-4D70-44FF-9566-A5C38C09B277}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfStatements", "IfStatements\IfStatements.csproj", "{C916950A-4D70-44FF-9566-A5C38C09B277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCalculator", "BetterCalculator\BetterCalculator.csproj", "{936D501D-F644-4272-9404-7B8EF7C8F09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterCalculator", "BetterCalculator\BetterCalculator.csproj", "{936D501D-F644-4272-9404-7B8EF7C8F09D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "SwitchStatement\SwitchStatement.csproj", "{58DAF8C0-055A-418F-BF37-025C26BA562A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchStatement", "SwitchStatement\SwitchStatement.csproj", "{58DAF8C0-055A-418F-BF37-025C26BA562A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoop", "WhileLoop\WhileLoop.csproj", "{ECD75BA3-60B8-4F44-B84A-280655B147E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoop", "WhileLoop\WhileLoop.csproj", "{ECD75BA3-60B8-4F44-B84A-280655B147E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{576A395B-484B-452A-A625-06E9ED2CB77D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentMethod", "ExponentMethod\ExponentMethod.csproj", "{2E3DA8D1-433F-4A10-B2B2-40014CAA8A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsClasses", "ObjectsClasses\ObjectsClasses.csproj", "{C35A2F64-5940-45C9-9E7D-5110AFAB8440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{576A395B-484B-452A-A625-06E9ED2CB77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{576A395B-484B-452A-A625-06E9ED2CB77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{576A395B-484B-452A-A625-06E9ED2CB77D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DA8D1-433F-4A10-B2B2-40014CAA8A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DA8D1-433F-4A10-B2B2-40014CAA8A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DA8D1-433F-4A10-B2B2-40014CAA8A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DA8D1-433F-4A10-B2B2-40014CAA8A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35A2F64-5940-45C9-9E7D-5110AFAB8440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35A2F64-5940-45C9-9E7D-5110AFAB8440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35A2F64-5940-45C9-9E7D-5110AFAB8440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35A2F64-5940-45C9-9E7D-5110AFAB8440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
