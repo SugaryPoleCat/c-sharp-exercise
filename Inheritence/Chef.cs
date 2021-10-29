@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritence
 {
+    /// <summary>
+    /// This is what we call a SUPER class, as it's used as a ground for other classes.
+    /// </summary>
     class Chef
     {
         /// <summary>
@@ -24,6 +27,7 @@ namespace Inheritence
         }
         /// <summary>
         /// Tell teh chef to make a special dish.
+        /// This is a virtual method, this means that we can OVERRIDE in subclasses, like Italian Chef.
         /// </summary>
         public virtual void MakeSpecialDish()
         {

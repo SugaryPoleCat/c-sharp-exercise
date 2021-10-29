@@ -8,6 +8,11 @@ namespace Inheritence
         {
             Chef chef = new Chef();
             chef.MakeChicken();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+            italianChef.MakeSpecialDish();
 
             Console.ReadLine();
         }
